@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Concert+One&family=Gruppo&display=swap');
+header {
+  margin: 0 auto;
+  display: flex;
+  background-color: white;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+body {
+  width: 100%;
+}
+
+header img {
+  height: 80%;
+}
+.cont {
+  position: fixed;
+  margin-top: 10px;
+  height: 200px;
+  background-color: #f6f6f6;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  color: #797979;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: start;
+  padding: 20px;
+  font-size: large;
+}
+.listitem {
+  transition: margin-left 0.5s ease;
+
+  width: 100%;
+}
+.last {
+  padding-top: 45px;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  transition: display 0.5s ease;
+}
+
+.listitem:hover {
+  margin-left: 20px;
+  color: #4ac4db;
+}
+.menub {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 20px;
+  justify-content: space-between;
+  align-items: end;
+  align-content: center;
+  margin: 20px;
+}
+
+.sps {
+  height: 0px;
+  width: 80%;
+  border: 1px solid #797979;
+  margin: 0 auto;
+}
+.tri {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #f6f6f6;
+}
+.line1 {
+  background-color: black;
+  height: 5%;
+  width: 100%;
+}
+
+.line2 {
+  background-color: black;
+  height: 5%;
+  width: 50%;
+  transition: width 0.5s ease;
+}
+
+.line3 {
+  background-color: black;
+  height: 10%;
+  width: 100%;
+}
+
+.menub:hover .line2 {
+  width: 100%;
+}
+.menub:hover .last {
+  display: flex;
+}
+.intro {
+  background-image: url(img/landing.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #4ac4db;
+  font-family: 'Concert One';
+  font-size: 70px;
+  width: 100%;
+}
+
+.info {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  width: max-content;
+  text-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.icon {
+  width: 50px;
+  margin: 20px;
+  color: #4ac4db;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.container {
+  flex: 1;
+  margin: 50px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+.coll {
+  color: aqua;
+}
+
+.dataT {
+  font-family: 'Concert One';
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.datab {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.even {
+  background-color: #f6f6f6;
+}
+.odd {
+  background-color: white;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  display: inline;
+  font-family: 'Concert One';
+  font-size: 100px;
+  margin-bottom: -40px;
+  color: #e0e0e0;
+}
+
+.section-body {
+  display: inline;
+  color: #797979;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.Portfolio {
+  margin-top: 70px;
+}
+.data {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.pic {
+  width: 100%;
+}
+
+.containerb {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+.conttext {
+  width: 80%;
+}
+
+.datapt {
+  font-family: 'Concert One';
+  font-size: 30px;
+  margin: 10px;
+}
+.datapb {
+  font-family: 'Courier New', Courier, monospace;
+  color: #797979;
+  margin-bottom: 20px;
+}
+
+.parent {
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 70vh;
+  width: 70%;
+  background-color: #797979;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+.item1 {
+  grid-row: 1/2;
+}
+.item2 {
+  grid-row: 1/2;
+}
+.item3 {
+  grid-row: 2/3;
+}
+.item4 {
+  grid-row: 2/3;
+}
+.item5 {
+  grid-row: 1/3;
+}
+.item {
+  background-color: #f6f6f6;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+  .services {
+    flex-direction: column;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .data {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .containerb {
+    width: 100%;
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+  .pic {
+    width: 90%;
+  }
+
+  header {
+    width: 95%;
+  }
+}
